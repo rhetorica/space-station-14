@@ -18,6 +18,10 @@
 		{
             "name": "slime-time",
 			"copyright": "Made by Rhetorica for https://github.com/ss14Starlight/space-station-14"
+        },
+		{
+            "name": "slime-crime",
+			"copyright": "Made by Rhetorica for https://github.com/ss14Starlight/space-station-14"
         }
     ]
 }
