@@ -5,7 +5,7 @@
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _Starlight/Effects/crayondecals.rsi
+    sprite: _Starlight/Decals/marks.rsi
     state: ussp
 
 - type: decal
@@ -79,6 +79,16 @@
     state: aurum
 
 - type: decal
+  id: cool-s
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _Starlight/Decals/marks.rsi
+    state: cool-s
+
+- type: decal
   id: devil
   tags: ["crayon", "crayon-5-graffiti"]
   defaultCleanable: true
@@ -117,6 +127,36 @@
   sprite:
     sprite: _Starlight/Decals/marks.rsi
     state: marsfall
+
+- type: decal
+  id: merge
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _Starlight/Decals/marks.rsi
+    state: merge
+
+- type: decal
+  id: slime-crime
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _Starlight/Decals/marks.rsi
+    state: slime-crime
+
+- type: decal
+  id: slime-time
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _Starlight/Decals/marks.rsi
+    state: slime-time
 
 - type: decal
   id: syndikat

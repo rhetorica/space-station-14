@@ -89,6 +89,26 @@
 	{
       "name": "you_are_dead",
 	  "copyright": "Paradise"
+    },
+    {
+      "name": "ussp",
+	  "copyright": "JustAdler"
+    },
+	{
+      "name": "cool-s",
+	  "copyright": "Rhetorica"
+    },
+	{
+      "name": "slime-time",
+	  "copyright": "Rhetorica"
+    },
+	{
+      "name": "slime-crime",
+	  "copyright": "Rhetorica"
+    },
+	{
+      "name": "merge",
+	  "copyright": "Rhetorica"
     }
   ]
 }
