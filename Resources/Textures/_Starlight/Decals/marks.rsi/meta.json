@@ -109,6 +109,14 @@
 	{
       "name": "merge",
 	  "copyright": "Rhetorica"
+    },
+	{
+      "name": "mmmm-slurms",
+	  "copyright": "Rhetorica"
+    },
+	{
+      "name": "zoom",
+	  "copyright": "Rhetorica"
     }
   ]
 }

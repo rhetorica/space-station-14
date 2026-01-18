@@ -79,7 +79,7 @@
     state: aurum
 
 - type: decal
-  id: cool-s
+  id: cool_s
   tags: ["crayon", "crayon-5-graffiti"]
   defaultCleanable: true
   defaultCustomColor: true
@@ -139,7 +139,17 @@
     state: merge
 
 - type: decal
-  id: slime-crime
+  id: mmmmslurms
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _Starlight/Decals/marks.rsi
+    state: mmmm-slurms
+
+- type: decal
+  id: slimecrime
   tags: ["crayon", "crayon-5-graffiti"]
   defaultCleanable: true
   defaultCustomColor: true
@@ -149,7 +159,7 @@
     state: slime-crime
 
 - type: decal
-  id: slime-time
+  id: slimetime
   tags: ["crayon", "crayon-5-graffiti"]
   defaultCleanable: true
   defaultCustomColor: true
@@ -207,3 +217,13 @@
   sprite:
     sprite: _Starlight/Decals/marks.rsi
     state: you_are_dead
+
+- type: decal
+  id: zoom
+  tags: ["crayon", "crayon-5-graffiti"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _Starlight/Decals/marks.rsi
+    state: zoom
