@@ -99,7 +99,7 @@
   name: sausage
   parent: FoodMeatBase
   id: FoodSausageCooked
-  description: If you don't know how they're made, they're delicious. After that, it's a different story.
+  description: If you don't know how they're made, they're delicious. After that, it's a different story. To serve properly, place between two halves of a bun.
   components:
     - type: FlavorProfile
       flavors:
