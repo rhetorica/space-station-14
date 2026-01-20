@@ -5,7 +5,7 @@
   conserveEnergy: false
   reactants:
     UncookedAnimalProteins:
-      amount: 5
+      amount: 6
     Enzyme:
       amount: 1
       catalyst: true

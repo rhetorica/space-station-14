@@ -80,7 +80,7 @@
           maxVol: 6
           reagents:
             - ReagentId: UncookedAnimalProteins
-              Quantity: 5
+              Quantity: 4
     - type: InternalTemperature # same as bacon
       conductivity: 0.44
       thickness: 0.004
@@ -117,9 +117,9 @@
           maxVol: 20
           reagents:
             - ReagentId: Nutriment
-              Quantity: 8
+              Quantity: 7
             - ReagentId: Protein
-              Quantity: 9
+              Quantity: 7
     - type: Construction
       graph: MeatSausage
       node: sausage
@@ -155,9 +155,9 @@
           maxVol: 40
           reagents:
             - ReagentId: Nutriment
-              Quantity: 18
+              Quantity: 14
             - ReagentId: Protein
-              Quantity: 9
+              Quantity: 7
     - type: Tag
       tags:
         - Meat
