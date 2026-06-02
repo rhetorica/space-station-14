@@ -2059,8 +2059,15 @@
         reagent: Ethanol
         amount: 0.2
     # starlight - dwarf drink effects
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Dwarf ]
+        damage:
+          types:
+            Bloodloss: -220 # BE HEALED
       - !type:ModifyStatusEffect
-        effectProto: BonusArmorPainkiller # 25% Bloodloss Resist
+        effectProto: BonusArmorPainkiller # 100% Bloodloss Resist
         time: 3
         conditions:
         - !type:MetabolizerTypeCondition
