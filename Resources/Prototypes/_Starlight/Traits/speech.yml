@@ -25,7 +25,7 @@
             - type: MothAccent
             - type: GrowlingAccent
             - type: ReplacementAccent
-              accent: dwarf
+              accent: dwarf # this value is ignored; Accentless actually removes all replacement accents
 
 - type: trait
   id: PoliteAccent
@@ -188,3 +188,15 @@
     - !type:AddCompsEffect
       components:
         - type: ScottishAccent
+
+- type: trait
+  id: QueekishAccent
+  name: trait-queekish-accent-name
+  description: trait-queekish-accent-desc
+  category: SpeechTraits
+  cost: 2
+  effects:
+    - !type:AddCompsEffect
+      components:
+        - type: ReplacementAccent
+          accent: queekish

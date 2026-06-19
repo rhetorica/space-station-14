@@ -42,6 +42,8 @@
       68: 0.5  # 80% - like felionoids
   - type: TypingIndicator
     proto: rodentia
+  - type: ReplacementAccent
+    accent: queekish
   - type: Speech
     speechVerb: Rodentia
     speechSounds: Squeak
