@@ -1,3 +1,5 @@
+# Elf cantrips; see mage_spells.yml for Mage and Sorc
+
 # Luminous Orb
 
 - type: entity
@@ -8,6 +10,7 @@
   components:
   - type: Magic
     requiresClothes: false
+    requiresGrimoire: true
   - type: Action
     useDelay: 45
     itemIconStyle: BigAction
@@ -21,8 +24,6 @@
   - type: SpeakOnAction
     sentence: action-speech-cantrip-glow
     whisper: true
-    tts: action-speech-cantrip-glow-tts
-    modifier: Spell
   - type: ColorObjectToEyeColor
 
 # Magic Ember
@@ -30,11 +31,12 @@
 - type: entity
   parent: BaseAction
   id: ActionCantripSpark
-  name: Magic Ember
+  name: Ember
   description: Creates a short-lived flame suitable for use as an ignition source. Decays after 5 seconds.
   components:
   - type: Magic
     requiresClothes: false
+    requiresGrimoire: true
   - type: Action
     useDelay: 20
     itemIconStyle: BigAction
@@ -48,19 +50,18 @@
   - type: SpeakOnAction
     sentence: action-speech-cantrip-spark
     whisper: true
-    tts: action-speech-cantrip-spark-tts
-    modifier: Spell
 
 # Rejuvenation/Antidote
 
 - type: entity
   parent: BaseAction
   id: ActionCantripAntidote
-  name: Rejuvenating Seed
+  name: Seed of Rejuvenation
   description: Creates a magic seed that restores vitality to an ailing plant. Vanishes if not used within 15 seconds.
   components:
   - type: Magic
     requiresClothes: false
+    requiresGrimoire: true
   - type: Action
     useDelay: 30
     itemIconStyle: BigAction
@@ -74,8 +75,6 @@
   - type: SpeakOnAction
     sentence: action-speech-cantrip-antidote
     whisper: true
-    tts: action-speech-cantrip-antidote-tts
-    modifier: Spell
 
 # Cleanse
 
@@ -87,6 +86,7 @@
   components:
   - type: Magic
     requiresClothes: false
+    requiresGrimoire: true
   - type: Action
     useDelay: 15
     itemIconStyle: BigAction
@@ -99,8 +99,6 @@
   - type: SpeakOnAction
     sentence: action-speech-cantrip-mop
     whisper: true
-    tts: action-speech-cantrip-mop-tts
-    modifier: Spell
 
 # Hemostasis
 
@@ -112,6 +110,7 @@
   components:
   - type: Magic
     requiresClothes: false
+    requiresGrimoire: true
   - type: Action
     useDelay: 45
     itemIconStyle: BigAction
@@ -125,8 +124,6 @@
   - type: SpeakOnAction
     sentence: action-speech-cantrip-bandage
     whisper: true
-    tts: action-speech-cantrip-bandage-tts
-    modifier: Spell
 
 # Psychic Whisper - disabled in store until i figure out how to make it work properly
 
@@ -138,6 +135,7 @@
   components:
   - type: Magic
     requiresClothes: false
+    requiresGrimoire: true
   - type: Action
     useDelay: 5
     itemIconStyle: BigAction

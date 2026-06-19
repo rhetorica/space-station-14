@@ -1,7 +1,7 @@
 # Luminous Orb
 
 - type: entity
-  name: Luminous Orb
+  name: luminous orb
   parent: BaseItem
   id: ElfLuminousOrb
   description: Destined to burn out and fade away.
@@ -30,7 +30,7 @@
   - type: TileFrictionModifier
     modifier: 0.001
   - type: EmitSoundOnSpawn
-    sound:
+    sound: 
       path: /Audio/_Starlight/Magic/cantrip.ogg
   - type: StaticPrice
     price: 0 # Not sellable.
@@ -40,7 +40,7 @@
 # Ember
 
 - type: entity
-  name: Ember
+  name: ember
   parent: BaseItem
   id: ElfMagicEmber
   description: Careful! It's hot. Cannot be dropped. Will decay soon.
@@ -60,25 +60,25 @@
       right:
       - state: inhand-right
         shader: unshaded
-  - type: PointLight
-    radius: 1
-    energy: 8
-    color: "#93F02E"
   - type: Unremoveable
   - type: SurgeryTool
-  - type: Cautery
     successRate: 1
     startSound:
       path: /Audio/_Starlight/Medical/Surgery/cautery1.ogg
     endSound:
       path: /Audio/_Starlight/Medical/Surgery/cautery2.ogg
+  - type: Cautery
   - type: IgnitionSource
     ignited: true
+  - type: PointLight
+    radius: 3
+    energy: 8
+    color: "#93F02E"
   - type: TimedDespawn
     lifetime: 5
   - type: AlwaysHot
   - type: EmitSoundOnSpawn
-    sound:
+    sound: 
       path: /Audio/_Starlight/Magic/ember.ogg
   - type: StaticPrice
     price: 0 # Not sellable.
@@ -113,12 +113,12 @@
     emptySpriteName: icon-empty
   - type: ExaminableSolution
     solution: pen
+  - type: PointLight
+    radius: 2
+    energy: 8
+    color: "#00ff8c" # kelly green
   - type: TimedDespawn
     lifetime: 15 # Not stockpileable.
-  - type: PointLight
-    radius: 1
-    energy: 8
-    color: "#93F02E"
   - type: Injector
     solutionName: pen
     currentTransferAmount: null
@@ -131,7 +131,7 @@
   - type: DeleteOnSolutionEmpty
     solution: pen
   - type: EmitSoundOnSpawn
-    sound:
+    sound: 
       path: /Audio/_Starlight/Magic/cantrip.ogg
   - type: SolutionContainerManager
     solutions:
@@ -166,7 +166,7 @@
     tags:
     - HideContextMenu
   - type: EmitSoundOnSpawn
-    sound:
+    sound: 
       path: "/Audio/_Starlight/Magic/gust.ogg"
       params:
         volume: 0.1
@@ -183,13 +183,13 @@
 # Hemostasis
 
 - type: entity
-  name: haemostatic rune
+  name: haemostatic glyph
   description: A magic rune that stops bleeding when applied. Will fade if not used quickly.
   parent: BaseHealingItem
   id: ElfRuneHaemostatic
   components:
   - type: Item
-    sprite: _Starlight/Objects/Magic/antidote.rsi
+    sprite: _Starlight/Objects/Magic/bandage.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -211,12 +211,12 @@
     emptySpriteName: icon-empty
   - type: ExaminableSolution
     solution: pen
+  - type: PointLight
+    radius: 2
+    energy: 8
+    color: "#ff14a5" # hot pink
   - type: TimedDespawn
     lifetime: 15 # Not stockpileable.
-  - type: PointLight
-    radius: 1
-    energy: 8
-    color: "#93F02E"
   - type: Injector
     solutionName: pen
     currentTransferAmount: null
@@ -229,7 +229,7 @@
   - type: DeleteOnSolutionEmpty
     solution: pen
   - type: EmitSoundOnSpawn
-    sound:
+    sound: 
       path: /Audio/_Starlight/Magic/ember.ogg
   - type: SolutionContainerManager
     solutions:
